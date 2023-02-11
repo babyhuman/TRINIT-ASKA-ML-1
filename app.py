@@ -9,7 +9,7 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 
 app = Flask(__name__)
-model = pickle.load(open('Crop_recomendation.pkl', 'rb'))
+model = pickle.load(open('Crop_recommendation.pkl', 'rb'))
 
 str=" "
 
